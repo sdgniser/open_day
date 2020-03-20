@@ -1,2 +1,4 @@
-# open_day
-Repository for NISER Open Day website
+# Repository for NISER Open Day website
+
+## Current Tasks:
+* Frontend design
