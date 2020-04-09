@@ -1,0 +1,93 @@
+/* BGs from http://thepatternlibrary.com/ */
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root
+{
+    /*  Will be modified */
+    font: 10px Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* --page-links-col: rgba(0, 250, 154, 0.8); */
+    
+    /* --logo-width: 9rem; */
+
+    /* Suggested colors */
+    --dark-blue: #4E53A3;
+    --orange: #F26122;
+    --light_blue: #1DB5E4;
+    --yellow: #FEBF10;
+    --white: #FFFFFF;
+    --green: #73BF44;
+
+    /* Use where needed */
+    --mail-col: rgb(0, 114, 202);
+    --whatsapp-col: rgb(85, 240, 112) ;
+    --yt-col: rgb(255, 0, 0);
+    --fb-col: #3b5998;
+    --insta-col: #fb3958;
+    --github-col: rgb(23, 21, 21);
+}
+
+body {
+    background: black center/cover no-repeat fixed;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+a:hover, a:link, a:active, a:any-link, a:visited {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+/* Use when needed */
+.page-links {
+    color: var(--page-links-col);
+}
+
+/* Use when needed */
+.mail, .whatsapp, .yt, .fb, .insta, .github {
+    color: white;
+
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.mail:hover {
+    opacity: 1;
+    color: var(--mail-col);
+}
+
+.whatsapp:hover {
+    opacity: 1;
+    color: var(--whatsapp-col);
+}
+
+.yt:hover {
+    opacity: 1;
+    color: var(--yt-col);
+}
+
+.fb:hover {
+    opacity: 1;
+    color: var(--fb-col);
+}
+
+.insta:hover {
+    opacity: 1;
+    color: var(--insta-col);
+}
+
+.github:hover {
+    opacity: 1;
+    color: rgb(23, 21, 21);
+}
