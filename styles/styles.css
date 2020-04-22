@@ -8,10 +8,9 @@
   box-sizing: border-box;
 }
 
-:root
-{
+:root {
   /*  Will be modified */
-  font: 10px Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 10px Helvetica, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   /* --page-links-col: rgba(0, 250, 154, 0.8); */
 
@@ -40,7 +39,11 @@ body {
   scroll-behavior: smooth;
 }
 
-a:hover, a:link, a:active, a:any-link, a:visited {
+a:hover,
+a:link,
+a:active,
+a:any-link,
+a:visited {
   text-decoration: none !important;
 }
 
@@ -54,7 +57,12 @@ ul {
 }
 
 /* Use when needed */
-.mail, .whatsapp, .yt, .fb, .insta, .github {
+.mail,
+.whatsapp,
+.yt,
+.fb,
+.insta,
+.github {
   color: white;
 
   -moz-transition: 0.5s ease;
@@ -210,5 +218,4 @@ ul {
   padding-bottom: 10px;
 }
 /* demonstration-detail-desktop stop */
-
 
