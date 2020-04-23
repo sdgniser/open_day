@@ -123,11 +123,12 @@ section {
 }
 
 .school-card {
-    /* width: 20rem;
-    height: 20rem; */
+    width: 20rem;
+    height: 20rem;
+    display: flex;
 
-    margin: 3rem;
-    padding: 15rem 0;
+    margin: 4rem;
+    /* padding: 12rem; */
 
     background: red;
 }
