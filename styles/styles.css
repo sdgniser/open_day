@@ -19,6 +19,9 @@
     
     --logo-width: 25rem;
 
+    --school-card-ttl-col: red;
+    --page-links-col: #1DB5E4;
+
     /* Suggested colors */
     --dark-blue: #4E53A3;
     --orange: #F26122;
@@ -42,6 +45,8 @@ body {
     scroll-behavior: smooth;
 
     text-align: center;
+
+    color: white;
 }
 
 a:hover, a:link, a:active, a:any-link, a:visited {
@@ -52,12 +57,11 @@ ul {
     list-style-type: none !important;
 }
 
-/* Use when needed */
+/* Use when needed -- START */
 .page-links {
     color: var(--page-links-col);
 }
 
-/* Use when needed */
 .mail, .whatsapp, .yt, .fb, .insta, .github {
     color: white;
 
@@ -95,10 +99,13 @@ ul {
     opacity: 1;
     color: rgb(23, 21, 21);
 }
+/* Use when needed -- END */
 
 section {
     width: 100%;
     height: 100vh;
+
+    border-top: 2px red solid;
 }
 
 #jumbotron {
@@ -108,40 +115,16 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* align-items: center; */
 }
 
-#school-cont {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.school-card {
-    width: 20rem;
-    height: 20rem;
-    display: flex;
-
-    margin: 4rem;
-    /* padding: 12rem; */
-
-    background: red;
-}
-
-.school-card a {
-    font-size: 2rem;
-}
+/* #intro:hover {
+    transition: 0.5s ease;
+    transform: translate(-50rem,-25rem);
+} */
 
 #logo-cont {
     display: inline;
     vertical-align: middle;
-
-    /* width: var(--logo-width); */
 }
 
 #logo {
@@ -151,8 +134,155 @@ section {
 #title {
     display: inline;
     vertical-align: middle;
-    /* width: 20rem; */
 
     font-size: 7rem;
     text-align: left;
+}
+
+#schools {
+    height: auto;
+}
+
+#schools-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.school-card {
+    display: flex;
+
+    width: 35rem;
+    height: 45rem;
+
+    margin: 4vw;
+
+    border-radius: 20px;
+}
+
+.school-card-img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+}
+
+.school-card-ttl {
+    display: block;
+    transform: translateY(-6.25rem);
+
+    color: var(--school-card-ttl-col);
+    font-size: 2.5rem;
+}
+
+#faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.faq-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#faq-ttl {
+    width: 40%;
+    height: 100%;
+
+    font-size: 7.5rem;
+    padding: 10rem;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+#faq-faq {
+    width: 60%;
+    height: 100%;
+
+    padding: 20rem;
+    justify-content: center;
+
+    align-items: flex-start;
+    text-align: left;
+}
+
+.faq-ques {
+    display: block;
+    font-size: 2.5rem;
+
+    margin: 1.5rem;
+}
+
+.faq-ans {
+    display: block;
+    font-size: 2rem;
+
+    margin: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#downloads {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.download-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#download-brochure {
+    width: 40%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#download-brochure-img {
+    width: 45rem;
+    height: 60rem;
+
+    transition: 0.4s ease;
+}
+
+#download-brochure-img:hover {
+    transform: scale(1.1);
+}
+
+#download-posters {
+    width: 60%;
+    height: 100%;
+
+    padding: 10rem;
+    justify-content: center;
+
+    /* align-items: flex-start; */
+    /* text-align: left; */
+}
+
+.download-event-poster {
+    display: block;
+    font-size: 2rem;
+
+    margin: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+footer {
+    font-size: 2rem;
 }
