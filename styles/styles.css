@@ -178,6 +178,11 @@ section {
     font-size: 2.5rem;
 }
 
+#gallery {
+    display: flex;
+    align-items: center;
+}
+
 #faq {
     display: flex;
     flex-direction: row;
