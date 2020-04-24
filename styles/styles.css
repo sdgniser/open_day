@@ -17,16 +17,16 @@
   /* --logo-width: 9rem; */
 
   /* Suggested colors */
-  --dark-blue: #4e53a3;
-  --orange: #f26122;
-  --light_blue: #1db5e4;
-  --yellow: #febf10;
-  --white: #ffffff;
-  --green: #73bf44;
+  --dark-blue: #4E53A3;
+  --orange: #F26122;
+  --light_blue: #1DB5E4;
+  --yellow: #FEBF10;
+  --white: #FFFFFF;
+  --green: #73BF44;
 
   /* Use where needed */
   --mail-col: rgb(0, 114, 202);
-  --whatsapp-col: rgb(85, 240, 112);
+  --whatsapp-col: rgb(85, 240, 112) ;
   --yt-col: rgb(255, 0, 0);
   --fb-col: #3b5998;
   --insta-col: #fb3958;
@@ -99,3 +99,123 @@ ul {
   opacity: 1;
   color: rgb(23, 21, 21);
 }
+
+
+/* demonstration-detail-desktop start */
+
+/* the buttom bar */
+.now-playing-bar {
+  background-color: var(--github-col);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.now-playing-bar .left {
+  float: left;
+  display: block;
+  color: var(--light_blue);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.left:hover {
+  background-color: #ddd;
+  color: var(--dark-blue);
+}
+
+.now-playing-bar .right {
+  float: right;
+  display: block;
+  color: var(--light_blue);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.right:hover {
+  background-color: #ddd;
+  color: var(--dark-blue);
+}
+.demo-name {
+  position: absolute;
+  display: inline-block;
+  color: var(--light_blue);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* the side menu */
+.demo-list {
+  background-color: var(--github-col);
+  color: var(--light_blue);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  height: 90vh;
+  overflow: auto;
+}
+.demo-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  line-height: 2;
+  letter-spacing: -0.009em;
+  font-weight: 200;
+  font-style: italic;
+}
+.demo-list li:hover{
+  background-color: #ddd;
+  color: var(--dark-blue);
+}
+.demo-list h1{
+  padding-top: 8px;
+  text-align: left
+}
+
+/* the main thing */
+.demo-detail {
+  margin-top: 30px;
+  padding-left: 30px;
+  height: 88vh;
+  overflow: auto;
+}
+.demo-detail .demo-image{
+  float: right;
+}
+.img{
+  width: 38vh;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+.demo-detail p{
+  color: #ddd;
+  font-size: 19px;
+  text-decoration: none;
+  text-align: left;
+}
+.demo-detail .demonstrators{
+  color: #ddd;
+}
+.demo-detail li {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: 0.008em;
+  font-weight: 500;
+  font-style: normal;
+}
+.demo-detail .demo-detail-info h1{
+  color: #ddd;
+  padding-bottom: 10px;
+}
+/* demonstration-detail-desktop stop */
+
