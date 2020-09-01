@@ -17,26 +17,15 @@
         </div>
       </div>
     </section>
-    <section id="about">
-      <div class="header">
-        <h2>About</h2>
-      </div>
-      <div class="about">
-        <div class="split-2">
-          <div class="left flex">
-            <img src="../assets/Poster_2020.png">
-          </div>
-          <div class="right flex">
-            <p class="about-text">Monocle ipsum dolor sit amet finest joy alluring Porter, Baggu exclusive cutting-edge Toto Boeing 787 discerning Tsutaya pintxos Helsinki Marylebone Gaggenau. Perfect lovely Melbourne izakaya destination pintxos extraordinary. Conversation Lufthansa pintxos liveable concierge exclusive. Sleepy bureaux carefully curated conversation perfect iconic boutique Singapore first-class Ginza.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <SectionAbout />
+    <SectionGallery />
   </div>
 </template>
 
 <script>
 import PurpleButton from '@/components/buttons/PurpleButton.vue';
+import SectionAbout from '@/components/SectionAbout.vue';
+import SectionGallery from '@/components/SectionGallery.vue';
 
 export default {
   name: 'Home',
@@ -45,6 +34,8 @@ export default {
   },
   components: {
     PurpleButton,
+    SectionAbout,
+    SectionGallery,
   },
 };
 </script>
@@ -80,30 +71,6 @@ export default {
         padding-bottom: 20px;
       }
     }
-  }
-}
-#about {
-  .header {
-    background: #1db5e4;
-    width: 100vw;
-    height: $header-height;
-    display: flex;
-    h2 {
-      margin: auto;
-      padding: 0px;
-    }
-  }
-  .about {
-    height: $section-height;
-  }
-  img {
-    margin: auto;
-    height: 70%;
-  }
-  .about-text {
-    text-align: right;
-    width: 70%;
-    margin: auto;
   }
 }
 .split-2 {

@@ -10,6 +10,8 @@
       </ul>
     </nav>
     <router-view />
+    <footer>
+    </footer>
   </div>
 </template>
 
@@ -46,4 +48,8 @@ body {
     }
   }
 }
+footer {
+  height: 30vh;
+  background: $green;
+  }
 </style>

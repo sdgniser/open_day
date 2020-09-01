@@ -15,12 +15,15 @@ export default {
   }
 };
 </script>
-<style scope lang="scss">
+<style scoped lang="scss">
 a {
+  line-height: 1.7;
+  width: 250px;
+  height: 30px;
+  display: block;
   font-size: 19px;
   background-color: $purple;
   padding: 10px 13px;
-  border: none;
   color: white;
   text-align: center;
   text-decoration: none;
