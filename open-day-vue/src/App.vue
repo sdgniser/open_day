@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <img src="./assets/niser-logo-light.png" class="logo">
+      <img src="./assets/niser-logo-light.png" class="logo" />
       <ul class="nav-links">
         <router-link to="/">Home</router-link>
         <router-link to="/schedule">Schedule</router-link>
@@ -18,9 +18,9 @@ body {
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
+  scroll-behavior: smooth;
 }
 
-$nav-bar-height: 60px;
 #nav {
   height: $nav-bar-height;
   width: 100vw;

@@ -1,14 +1,13 @@
 <template>
-  <a :href="link">
+  <button>
     {{ text }}
-  </a>
+  </button>
 </template>
 <script lang="ts">
 export default {
   name: "PurpleButton",
   props: {
-    text: String,
-    link: String,
+    text: String
   },
   data() {
     return {};
@@ -16,9 +15,9 @@ export default {
 };
 </script>
 <style scope lang="scss">
-a {
+button {
   font-size: 19px;
-  background-color: $purple;
+  background-color: $blue;
   padding: 10px 13px;
   border: none;
   color: white;
@@ -27,7 +26,7 @@ a {
   cursor: pointer;
   border-radius: 6px;
   &:hover {
-    background-color: $dark-purple;
+    background-color: $dark-blue;
   }
 }
 </style>

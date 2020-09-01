@@ -13,7 +13,7 @@
             <br />
             2020
           </h1>
-          <PurpleButton text="Learn more" />
+          <PurpleButton text="Learn more" link="#about"/>
         </div>
       </div>
     </section>
@@ -21,31 +21,40 @@
       <div class="header">
         <h2>About</h2>
       </div>
+      <div class="about">
+        <div class="split-2">
+          <div class="left flex">
+            <img src="../assets/Poster_2020.png">
+          </div>
+          <div class="right flex">
+            <p class="about-text">Monocle ipsum dolor sit amet finest joy alluring Porter, Baggu exclusive cutting-edge Toto Boeing 787 discerning Tsutaya pintxos Helsinki Marylebone Gaggenau. Perfect lovely Melbourne izakaya destination pintxos extraordinary. Conversation Lufthansa pintxos liveable concierge exclusive. Sleepy bureaux carefully curated conversation perfect iconic boutique Singapore first-class Ginza.</p>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
-import PurpleButton from "@/components/buttons/PurpleButton.vue";
+import PurpleButton from '@/components/buttons/PurpleButton.vue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   data() {
     return {};
   },
   components: {
-    PurpleButton
-  }
+    PurpleButton,
+  },
 };
 </script>
 <style lang="scss">
 #home {
-  $main_section_height: 90vh;
   .overlay {
     z-index: -1;
     position: absolute;
     background: #000000;
-    height: $main_section_height;
+    height: $section-height;
     .background {
       object-fit: cover;
       width: 100vw;
@@ -56,7 +65,7 @@ export default {
   }
   .hero {
     z-index: 1;
-    height: $main_section_height;
+    height: $section-height;
     width: 100vw;
     display: flex;
     .center {
@@ -75,14 +84,44 @@ export default {
 }
 #about {
   .header {
-    background: #1DB5E4;
+    background: #1db5e4;
     width: 100vw;
-    height: 80px;
+    height: $header-height;
     display: flex;
     h2 {
       margin: auto;
       padding: 0px;
     }
   }
+  .about {
+    height: $section-height;
+  }
+  img {
+    margin: auto;
+    height: 70%;
+  }
+  .about-text {
+    text-align: right;
+    width: 70%;
+    margin: auto;
+  }
+}
+.split-2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  .left {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+  }
+  .right {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+  }
+}
+.flex {
+  display: flex;
 }
 </style>
