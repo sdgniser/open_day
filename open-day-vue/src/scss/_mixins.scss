@@ -1,0 +1,13 @@
+@mixin button {
+  width: 250px;
+  border: none;
+  line-height: 1.7;
+  display: block;
+  font-size: 19px;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in;
+}

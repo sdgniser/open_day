@@ -11,7 +11,7 @@
         <div class="right flex">
           <div class="center">
           <p class="about-text">Monocle ipsum dolor sit amet finest joy alluring Porter, Baggu exclusive cutting-edge Toto Boeing 787 discerning Tsutaya pintxos Helsinki Marylebone Gaggenau. Perfect lovely Melbourne izakaya destination pintxos extraordinary. Conversation Lufthansa pintxos liveable concierge exclusive. Sleepy bureaux carefully curated conversation perfect iconic boutique Singapore first-class Ginza.</p>
-          <BlueButton text="Schedule" link="/schedule"/>
+          <BlueButton text="Schedule" link="/schedule" link_type="out"/>
         </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
   }
   .center {
     margin: auto;
-    text-align: center;
+    text-align: -moz-center;
   }
 }
 </style>

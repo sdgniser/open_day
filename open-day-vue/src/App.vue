@@ -6,21 +6,24 @@
         <router-link to="/">Home</router-link>
         <router-link to="/schedule">Schedule</router-link>
         <router-link to="/contact">Contact</router-link>
-        <router-link to="/covid">COVID-19</router-link>
+        <a href="/covid">COVID-19</a>
       </ul>
     </nav>
-    <router-view />
-    <footer>
-    </footer>
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
+    <footer></footer>
   </div>
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
   scroll-behavior: smooth;
+  font-family: 'roboto';
 }
 
 #nav {
@@ -51,5 +54,16 @@ body {
 footer {
   height: 30vh;
   background: $green;
-  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
 </style>
