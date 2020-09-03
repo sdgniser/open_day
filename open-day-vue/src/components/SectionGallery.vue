@@ -6,8 +6,8 @@
     <div class="gallery">
       <ul class="gallery__list">
         <li v-for="photo in photos" :key="photo.id">
-          <figure>
-            <img :src="`https://picsum.photos/id/${photo.id}/200/300`" />
+          <figure v-lazyload>
+            <img alt="image" :data-url="`https://picsum.photos/id/${photo.id}/200/300`"/>
           </figure>
         </li>
       </ul>
@@ -15,6 +15,7 @@
   </section>
 </template>
 <script>
+import LazyLoadDirective from '@/helpers/lazyLoadDirective';
 export default {
   name: 'SectionGallery',
   data() {
@@ -27,7 +28,9 @@ export default {
       photos
     };
   },
-  components: {},
+  directives: {
+    lazyload: LazyLoadDirective,
+  },
 };
 </script>
 <style scoped lang="scss">

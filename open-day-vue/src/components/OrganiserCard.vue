@@ -9,26 +9,26 @@
   </article>
 </template>
 <script>
-import LazyLoadDirective from "@/helpers/lazyLoadDirective";
+import LazyLoadDirective from '@/helpers/lazyLoadDirective';
 export default {
   name: 'OrganiserCard',
   props: {
     organiser: Object,
   },
   directives: {
-    lazyload: LazyLoadDirective
-  }
+    lazyload: LazyLoadDirective,
+  },
 };
 </script>
 <style scoped lang="scss">
 article {
   display: inline-block;
   width: 92vw;
-  padding:3vw;
-  @media(min-width: $bp-md){
+  padding: 3vw;
+  @media (min-width: $bp-md) {
     width: 46vw;
   }
-  @media(min-width: $bp-lg){
+  @media (min-width: $bp-lg) {
     width: 23vw;
   }
   figure {

@@ -2,7 +2,9 @@
 
 ## To-Do
 
-- [ ] Lazy load the gallery
+- [x] Lazy load the gallery
+- [x] Lazy load images in organisers
+- [x] loading spinner or smthing for lazy loading
 - [ ] Move Logo in navbar to left
 - [ ] Typography
 
