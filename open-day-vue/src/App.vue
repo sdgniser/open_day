@@ -19,6 +19,9 @@
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  box-sizing: border-box;
+}
 body {
   overflow-x: hidden;
   padding: 0px;
