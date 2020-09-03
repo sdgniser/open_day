@@ -20,6 +20,11 @@ const routes: Array<RouteConfig> = [
     name: 'Schedule',
     component: () => import('../views/Schedule.vue'),
   },
+  {
+    path: '/team',
+    name: 'Organisers',
+    component: () => import('../views/Organisers.vue'),
+  }
 ];
 
 const router = new VueRouter({

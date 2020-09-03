@@ -6,6 +6,7 @@
         <router-link to="/">Home</router-link>
         <router-link to="/schedule">Schedule</router-link>
         <router-link to="/contact">Contact</router-link>
+        <router-link to="/team">Organisers</router-link>
         <a href="/covid">COVID-19</a>
       </ul>
     </nav>
