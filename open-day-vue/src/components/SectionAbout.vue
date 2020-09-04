@@ -44,14 +44,19 @@
     }
   }
   .about {
-    height: $section-height;
+    @media(min-width: $bp-md) {
+      height: $section-height;
+    }
   }
   img {
     margin: auto;
     height: 70%;
   }
   .about-text {
-    text-align: right;
+    text-align: center;
+    @media(min-width: $bp-md) {
+      text-align: right;
+    }
     width: 70%;
     margin: auto;
     padding-bottom: 70px;

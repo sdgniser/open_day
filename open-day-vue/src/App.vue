@@ -22,6 +22,11 @@
 * {
   box-sizing: border-box;
 }
+html {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
 body {
   overflow-x: hidden;
   padding: 0px;

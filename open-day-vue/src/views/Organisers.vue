@@ -64,7 +64,7 @@ export default {
         {
           name: 'Abhishek Anil Deshmukh',
           affiliation: 'Web Developer',
-          content: 'some words domw words some words',
+          content: '0111011001101111011010010\n11011001100001110100000',
           image: 'https://deshmukh.ml/images/popitalk_dp.jpg'
         },
         {
