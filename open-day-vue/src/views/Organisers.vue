@@ -22,191 +22,160 @@ export default {
         {
           name: 'Akshay Priyadarshani',
           affiliation: 'Chief Coordinator',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.googleusercontent.com/fife/ABSRlIpFpSkVMGxQmu6xEF_GsHDHnsiwy9nfPjrJ01UmEgdoGfsXOhccIQ6fAcj9Zs4cgX3LHIXhbQebrraPcWRIpk6YJAivO_BV4J0mdfEdsbGT9BqnQPY77cYAdJbuBklcGiNc69rMnnkJQxay2DQIXN_lZi0kqfPsjyHJok7U9XtHPfcZQdERKEPDWGMNkro-ygF6fvqUuUIc0HYJR4tHyltiOID-hdByAcnagf83yEQBrXzIw2eMmcnejMduZd9wHoJJgxZpzlydFwpRTRQZuOyqty8831s1EFHGaA98GdiHj-XPP_SjFpHjkR8V15yKkgkqtZ_Q9fPVzEBbRPDGAT_GzzxhwMlzxx1_MwNVdYpAn-u_m8DfIc02bOyOmkgvIIxQK3Q78yqQb1UE2TRSD-fNB5Nyibme3P3AwTM4uOKyB_-dzx1V0MGt93ueSgk3LsNpti5fO20bZkFyJa-o_tLtKGRUYA4utC354Q_NVdp6HWAXz3FcUZzeEhJ8oITSlVaAMbR3zlBcu5yXNvxfSj-vksR9nQlWEROT-_HSUpTmj4cksGbqLl9TGaqpUkkg1lCCQDHLbb6YxxwspSROZaUJWAxyntAglGlPzCaT90496hC2uwC_waUFBx8rBwF8A3RIsVGwARlFweUDZfMOzYHVr7luDnur4I2FQhR6BpzQSUmNDQi88-nqSyXB8EZFvfiuX0Zwo-i0MIvexkw3Ltu3woE=w1360-h670-ft'
         },
         {
           name: 'Dhairya Patel',
           affiliation: 'Chemistry',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/1rwga6d-Zg2R2EVGWiy8-uGJVEvQ03riv=w745-h670-iv2'
         },
         {
           name: 'Sanaa Khan',
           affiliation: 'Biology',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Hradini Konthalapalli',
           affiliation: 'Biology',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/1yz_-y9fIgMRAIdQ5rLuuu9esU0MB7vjX=w1366-h767-iv1'
         },
         {
           name: 'Nisarg Vyas',
           affiliation: 'Physics',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Prem Nigam',
           affiliation: 'Mathematics',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Ayush Singh',
           affiliation: 'Computer Sci.',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Abhishek Anil Deshmukh',
           affiliation: 'Web Developer',
-          content: '0111011001101111011010010\n11011001100001110100000',
           image: 'https://deshmukh.ml/images/popitalk_dp.jpg'
         },
         {
           name: 'Jyotirmay Shivottam',
           affiliation: 'Web Developer',
-          content: 'some words domw words some words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Jyotish',
           affiliation: 'Robotics',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Smruthimedha Prida',
           affiliation: 'Design',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/10aaZmuyZbHzPRLq6S0C9NcZJNoqELmb-=w745-h658-iv2'
         },
         {
           name: 'Anoushka Sardar',
           affiliation: 'Logistics',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/1sTCHiXJZEHemtF1tciGjFAmDcgEs3_CT=w745-h670-iv1'
         },
         {
           name: 'Anshuman Padhi',
           affiliation: 'Logistics',
-          content: 'Some words some wordssome wordssome words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Tanya Pattnaik',
           affiliation: 'Volunteer\'s Coordinator',
-          content: 'Some words some wordssome wordssome words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/1pK3n4smvb5FUuoxUXgzznvbYOjeXQVL1=w745-h670-iv2'
         },
       ],
       organisers2019: [
         {
           name: 'Pankaj Kumar',
           affiliation: 'Overall',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Tanmay Pani',
           affiliation: 'Overall',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Pushpa Raj Prasaf',
           affiliation: 'Chemistry',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Prakhar Gupta',
           affiliation: 'Chemistry',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Srilakshmi',
           affiliation: 'Biology',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Saurabh Agarwal',
           affiliation: 'Biology',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Akshay Priyadarshani',
           affiliation: 'Physics, Design',
-          content: 'Some words, older wordsolder wordsolder words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.googleusercontent.com/fife/ABSRlIpFpSkVMGxQmu6xEF_GsHDHnsiwy9nfPjrJ01UmEgdoGfsXOhccIQ6fAcj9Zs4cgX3LHIXhbQebrraPcWRIpk6YJAivO_BV4J0mdfEdsbGT9BqnQPY77cYAdJbuBklcGiNc69rMnnkJQxay2DQIXN_lZi0kqfPsjyHJok7U9XtHPfcZQdERKEPDWGMNkro-ygF6fvqUuUIc0HYJR4tHyltiOID-hdByAcnagf83yEQBrXzIw2eMmcnejMduZd9wHoJJgxZpzlydFwpRTRQZuOyqty8831s1EFHGaA98GdiHj-XPP_SjFpHjkR8V15yKkgkqtZ_Q9fPVzEBbRPDGAT_GzzxhwMlzxx1_MwNVdYpAn-u_m8DfIc02bOyOmkgvIIxQK3Q78yqQb1UE2TRSD-fNB5Nyibme3P3AwTM4uOKyB_-dzx1V0MGt93ueSgk3LsNpti5fO20bZkFyJa-o_tLtKGRUYA4utC354Q_NVdp6HWAXz3FcUZzeEhJ8oITSlVaAMbR3zlBcu5yXNvxfSj-vksR9nQlWEROT-_HSUpTmj4cksGbqLl9TGaqpUkkg1lCCQDHLbb6YxxwspSROZaUJWAxyntAglGlPzCaT90496hC2uwC_waUFBx8rBwF8A3RIsVGwARlFweUDZfMOzYHVr7luDnur4I2FQhR6BpzQSUmNDQi88-nqSyXB8EZFvfiuX0Zwo-i0MIvexkw3Ltu3woE=w1360-h670-ft'
         },
         {
           name: 'Dishant Swain',
           affiliation: 'Physics',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Paresh Singh Arora',
           affiliation: 'Mathematics',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Sannidhya Shukla',
           affiliation: 'Computer Sci.',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Aranya Giri',
           affiliation: 'Food',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
         {
           name: 'Arnav Paul',
           affiliation: 'Food',
-          content: 'Some words, older wordsolder wordsolder words',
-          image: 'https://via.placeholder.com/150'
+          image: 'https://lh3.google.com/u/0/d/17PVM_MWrh3JTVMdzw2BJcDzLNAlpZQpc=w745-h670-iv2'
         },
         {
           name: 'Smrutimedha Prida',
           affiliation: 'Invite and design',
-          content: 'Some words, older wordsolder wordsolder words',
           image: 'https://via.placeholder.com/150'
         },
       ],
       organiser2018: {
         name: 'Biprateep Dey',
         affiliation: '2018 Chief Organiser',
-        content: 'Some really really old words',
         image: 'https://via.placeholder.com/150'
       },
       organiser2017: {
         name: 'Diptanil Roy',
         affiliation: '2017 Chief Organiser',
-        content: 'Some really really old words',
         image: 'https://via.placeholder.com/150'
       },
       organisers2016: [
       {
         name: 'Bipradeep Dey',
         affiliation: '2016 Chief Organiser',
-        content: 'Some really really old words',
         image: 'https://via.placeholder.com/150'
       },
         {
         name: 'Debashish Jena',
         affiliation: '2016 Chief Organiser',
-        content: 'Some really really old words',
         image: 'https://via.placeholder.com/150'
         }]
     }
