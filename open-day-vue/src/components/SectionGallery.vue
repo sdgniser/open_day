@@ -5,10 +5,12 @@
     </div>
     <div class="gallery">
       <ul class="gallery__list">
-        <li v-for="photo in photos" :key="photo.id">
+        <li v-for="photo in photos" :key="photo">
+          <a :href="photo">
           <figure v-lazyload>
-            <img alt="image" :data-url="`https://picsum.photos/id/${photo.id}/200/300`"/>
+            <img alt="image" :data-url="photo" />
           </figure>
+        </a>
         </li>
       </ul>
     </div>
@@ -19,13 +21,22 @@ import LazyLoadDirective from '@/helpers/lazyLoadDirective';
 export default {
   name: 'SectionGallery',
   data() {
-    let photos = [];
-    const number_of_photos = 20
-    for(let i=0; i<number_of_photos; i++){
-      photos.push({id: Math.round(Math.random()*100)});
-    }
     return {
-      photos
+      photos: [
+        require('@/assets/gallery/1.jpg'),
+        require('@/assets/gallery/2.jpg'),
+        require('@/assets/gallery/3.jpg'),
+        require('@/assets/gallery/4.jpg'),
+        require('@/assets/gallery/5.jpg'),
+        require('@/assets/gallery/6.jpg'),
+        require('@/assets/gallery/7.jpg'),
+        require('@/assets/gallery/8.jpg'),
+        require('@/assets/gallery/9.jpg'),
+        require('@/assets/gallery/10.jpg'),
+        require('@/assets/gallery/11.jpg'),
+        require('@/assets/gallery/12.jpg'),
+        require('@/assets/gallery/13.jpg'),
+      ],
     };
   },
   directives: {
@@ -51,7 +62,7 @@ export default {
     .gallery__list {
       margin: 10px 0px;
       padding: 5vw;
-      width: 90vw;
+      width: 95vw;
       list-style-type: none;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -76,7 +87,7 @@ export default {
             margin: -3%;
             width: 106%;
             height: 106%;
-            box-shadow: 0px 0px 8px #888
+            box-shadow: 0px 0px 8px #888;
           }
           img {
             width: 100%;
