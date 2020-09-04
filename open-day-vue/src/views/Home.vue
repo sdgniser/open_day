@@ -3,6 +3,7 @@
     <SectionHero />
     <SectionAbout />
     <SectionGallery />
+    <SectionFeedback />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import SectionHero from '@/components/SectionHero.vue';
 import SectionAbout from '@/components/SectionAbout.vue';
 import SectionGallery from '@/components/SectionGallery.vue';
+import SectionFeedback from '@/components/SectionFeedback.vue';
 
 export default {
   name: 'Home',
@@ -20,6 +22,7 @@ export default {
     SectionHero,
     SectionAbout,
     SectionGallery,
+    SectionFeedback,
   },
 };
 </script>
