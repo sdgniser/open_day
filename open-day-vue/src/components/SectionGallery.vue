@@ -71,6 +71,13 @@ export default {
           height: 100%;
           width: 100%;
           margin: 0px;
+          transition: 0.2s ease;
+          &:hover {
+            margin: -3%;
+            width: 106%;
+            height: 106%;
+            box-shadow: 0px 0px 8px #888
+          }
           img {
             width: 100%;
             height: 100%;
