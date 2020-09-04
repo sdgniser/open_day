@@ -6,30 +6,42 @@
     <div class="about">
       <div class="split-2">
         <div class="left flex">
-          <img src="../assets/Poster_2020.png">
+          <img src="../assets/Poster_2020.png" />
         </div>
         <div class="right flex">
           <div class="center">
-          <p class="about-text">Monocle ipsum dolor sit amet finest joy alluring Porter, Baggu exclusive cutting-edge Toto Boeing 787 discerning Tsutaya pintxos Helsinki Marylebone Gaggenau. Perfect lovely Melbourne izakaya destination pintxos extraordinary. Conversation Lufthansa pintxos liveable concierge exclusive. Sleepy bureaux carefully curated conversation perfect iconic boutique Singapore first-class Ginza.</p>
-          <BlueButton text="Schedule" link="/schedule" link_type="out"/>
-        </div>
+            <p class="about-text">
+              The Open day is an event conducted by the National Institute of
+              Science Education and Research(NISER) on an annual basis. With the
+              single minded goal of enlightening young minds to a life in
+              science, it hosts a plethora of activities and talks that are as
+              interesting as they are informative. However, the year 2020 calls
+              for a different approach, as the pandemic has raised confusion and
+              uncertainties among all the students. While it is impossible to
+              conduct the Open day as is customary, we welcome you to the first
+              NISER Virtual Open Day, 2020. While carrying forward the essence
+              of the Open day, we look forward to accommodate all the new
+              challenges that have come along with the new modus operandi.
+            </p>
+            <BlueButton text="Schedule" link="/schedule" link_type="out" />
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script>
-  import BlueButton from '@/components/buttons/BlueButton.vue';
+import BlueButton from '@/components/buttons/BlueButton.vue';
 
-  export default {
-    name: 'SectionAbout',
-    data() {
-      return {};
-    },
-    components: {
-      BlueButton,
-    }
-  }
+export default {
+  name: 'SectionAbout',
+  data() {
+    return {};
+  },
+  components: {
+    BlueButton,
+  },
+};
 </script>
 <style scoped lang="scss">
 #about {
@@ -44,7 +56,7 @@
     }
   }
   .about {
-    @media(min-width: $bp-md) {
+    @media (min-width: $bp-md) {
       height: $section-height;
     }
   }
@@ -54,12 +66,13 @@
   }
   .about-text {
     text-align: center;
-    @media(min-width: $bp-md) {
-      text-align: right;
+    font-size: 19px;
+    @media (min-width: $bp-md) {
+      /* text-align: right; */
     }
     width: 70%;
     margin: auto;
-    padding-bottom: 70px;
+    padding: 70px 0px;
   }
   .center {
     margin: auto;

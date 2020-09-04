@@ -34,7 +34,7 @@ export default {
   @media(max-width: $bp-md) {
     width: 70%;
     height: unset;
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
   }
   }
   .right {
@@ -44,7 +44,7 @@ export default {
   @media(max-width: $bp-md) {
     width: 100%;
     height: unset;
-    padding: 30px 0px;
+    padding: 0px 0px 30px 0px;
   }
   }
   @media(min-width: $bp-md) {

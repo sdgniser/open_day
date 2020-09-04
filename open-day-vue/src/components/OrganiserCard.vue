@@ -5,7 +5,6 @@
     </figure>
     <h2>{{ organiser.name }}</h2>
     <p class="subtext">{{ organiser.affiliation }}</p>
-    <p class="content">{{ organiser.content }}</p>
   </article>
 </template>
 <script>
@@ -37,7 +36,7 @@ article {
     margin: 0px 0px 30px 0px;
     img {
       width: 80%;
-      border-radius: 50%;
+      border-radius: 40px;
       margin: auto;
       transition: 0.2s ease;
       &:hover {
