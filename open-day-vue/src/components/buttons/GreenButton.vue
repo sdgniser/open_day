@@ -1,17 +1,17 @@
 <template>
-  <button v-if="link_type === 'in'" v-scroll-to="link">
+  <button v-if="link_type === 'in'" v-scroll-to="link" class="button">
     {{ text }}
   </button>
-  <router-link v-else-if="link_type === 'out'" :to="link">
+  <router-link v-else-if="link_type === 'out'" :to="link" class="button">
     {{ text }}
   </router-link>
-  <a v-else :href="link">
+  <a v-else :href="link" class="button">
     {{ text }}
   </a>
 </template>
 <script lang="ts">
 export default {
-  name: 'PurpleButton',
+  name: 'GreenButton',
   props: {
     text: String,
     link: String,
@@ -20,19 +20,15 @@ export default {
       type: String,
     },
   },
-  data() {
-    return {};
-  },
 };
 </script>
 <style scoped lang="scss">
-button,
-a {
+.button {
   @include button;
-  background-color: $purple;
-  color: white;
+  background-color: $green;
+  color: black;
   &:hover {
-    background-color: $dark-purple;
+    background-color: $dark-green;
   }
 }
 </style>

@@ -1,17 +1,25 @@
 <template>
-  <section id="feedback">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDoqwHKyFhdFo86j5NIncNzK0DHqqhI01UjBSaxSQ9pfvqmw/viewform?embedded=true" width="100%" height="752" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <section>
+    <GreenButton text="Feedback" link="/feedback" link_type="out"/>
   </section>
 </template>
-<script lang="scss">
+<script>
+import GreenButton from '@/components/buttons/GreenButton';
+export default {
+  name: 'SectionFeedback',
+  components: {
+    GreenButton,
+  }
+}
 </script>
 <style scoped lang="scss">
 section {
-  min-height: $section-height;
   width: 100vw;
+  padding-bottom: 40px;
+  text-align: center;
   display: flex;
-  iframe {
-    margin: 0 auto;
+  a {
+    margin: auto;
   }
 }
 </style>
