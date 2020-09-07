@@ -38,21 +38,32 @@ body {
 #nav {
   height: $nav-bar-height;
   width: 100vw;
-  text-align: right;
   background: #4e53a3;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
   .nav-links {
-    display: inline-block;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: 20px;
   }
   .logo {
+    margin: 0;
+    margin-left: 30px;
     position: absolute;
+    text-decoration: none;
     height: $nav-bar-height;
-    align: left;
   }
 
   a {
     font-weight: bold;
     color: #ffffff;
-    padding: 20px;
+    margin: 20px;
     text-decoration: none;
 
     &.router-link-exact-active {
