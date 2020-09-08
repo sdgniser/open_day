@@ -1,6 +1,6 @@
 # Repository for NISER Open Day website
 
-Temporary development on [https://openday2020.dunce.ml](https://openday2020.dunce.ml)
+Temporary deployment on [https://openday2020.dunce.ml](https://openday2020.dunce.ml)
 
 ## Features
 
