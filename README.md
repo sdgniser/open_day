@@ -19,16 +19,17 @@ Temporary deployment on [https://openday2020.dunce.ml](https://openday2020.dunce
 - [x] Lazy load the gallery
 - [x] Lazy load images in organisers
 - [x] Move Logo in navbar to left
-- [ ] Link the navbar icon to niser home page
-- [ ] loading spinner or something for lazy loading
-- [ ] link the COVID-19 link to niser's covid 19 link
+- [x] Link the navbar icon to niser home page
+- [x] Link the COVID-19 link to niser's covid 19 link
+- [x] Hamburger menu on the navbar
+- [x] Vulnerabilities
+- [ ] Loading spinner or something for lazy loading
+- [ ] Loading thing for schedule page
 - [ ] Fix Schedule shadow styling
-- [ ] Hamburger menu on the navbar
 - [ ] Better Typography
 - [ ] Manual image compression for better performance
 - [ ] History mode
 - [ ] Footer
-- [ ] Vulnerabilities
 
 ## post-build-pre-deployment checklist
 - [ ] Paste stuff from `meta.txt` into `index.html`'s `head` from the build.
