@@ -1,22 +1,62 @@
 <template>
   <div id="app">
-    <nav id="nav">
-      <img src="./assets/niser-logo-light.png" class="logo" />
-      <ul class="nav-links">
-        <router-link to="/">Home</router-link>
-        <router-link to="/schedule">Schedule</router-link>
-        <router-link to="/contact">Contact</router-link>
-        <router-link to="/team">Organisers</router-link>
-        <a href="/covid">COVID-19</a>
-      </ul>
-    </nav>
+    <vue-navigation-bar :options="navbarOptions" />
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
     <footer></footer>
   </div>
 </template>
-
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      navbarOptions: {
+        elementId: 'main-navbar',
+        isUsingVueRouter: true,
+        mobileBreakpoint: 992,
+        brandImagePath: './',
+        brandImage: require('@/assets/niser-logo-light.png'),
+        brandImageAltText: 'NISER',
+        collapseButtonOpenColor: '#fff',
+        collapseButtonCloseColor: '#fff',
+        showBrandImageInMobilePopup: true,
+        ariaLabelMainNav: 'Main Navigation',
+        tooltipAnimationType: 'shift-away',
+        menuOptionsLeft: [],
+        menuOptionsRight: [
+          {
+            type: 'link',
+            text: 'Home',
+            path: {name: 'Home'},
+          },
+          {
+            type: 'link',
+            text: 'Schedule',
+            path: {name: 'Schedule'},
+          },
+          {
+            type: 'link',
+            text: 'Contact',
+            path: {name: 'Contact'},
+          },
+          {
+            type: 'link',
+            text: 'Organisers',
+            path: {name: 'Organisers'},
+          },
+          {
+            type: 'link',
+            text: 'COVID-19',
+            path: 'https://www.niser.ac.in/COVID/',
+          },
+        ],
+      },
+    };
+  },
+};
+</script>
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
@@ -35,42 +75,6 @@ body {
   font-family: 'roboto';
 }
 
-#nav {
-  height: $nav-bar-height;
-  width: 100vw;
-  background: #4e53a3;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  align-items: center;
-  .nav-links {
-    margin-top: 0px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-  .logo {
-    margin: 0;
-    margin-left: 30px;
-    position: absolute;
-    text-decoration: none;
-    height: $nav-bar-height;
-  }
-
-  a {
-    font-weight: bold;
-    color: #ffffff;
-    margin: 20px;
-    text-decoration: none;
-
-    &.router-link-exact-active {
-      color: #aaa;
-    }
-  }
-}
 footer {
   height: 30vh;
   background: $green;
