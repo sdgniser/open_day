@@ -14,9 +14,8 @@ export default {
     return {
       navbarOptions: {
         elementId: 'main-navbar',
-        isUsingVueRouter: true,
-        mobileBreakpoint: 992,
-        brandImagePath: './',
+        mobileBreakpoint: 768,
+        brandImagePath: 'https://www.niser.ac.in',
         brandImage: require('@/assets/niser-logo-light.png'),
         brandImageAltText: 'NISER',
         collapseButtonOpenColor: '#fff',
@@ -29,22 +28,22 @@ export default {
           {
             type: 'link',
             text: 'Home',
-            path: {name: 'Home'},
+            path: '#/',
           },
           {
             type: 'link',
             text: 'Schedule',
-            path: {name: 'Schedule'},
+            path: '#/schedule/',
           },
           {
             type: 'link',
             text: 'Contact',
-            path: {name: 'Contact'},
+            path: '#/contact/'
           },
           {
             type: 'link',
             text: 'Organisers',
-            path: {name: 'Organisers'},
+            path: '#/team/'
           },
           {
             type: 'link',
