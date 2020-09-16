@@ -10,7 +10,6 @@
         ><br />9937191241<br />debasmita@niser.ac.in
       </p>
       <p><b>Akshay Priyadarshani</b><br />7788992679<br />akshay.priyadarshani@niser.ac.in</p>
-      <p><a href="https://www.facebook.com/sacNISER">www.facebook.com/sacNISER</a></p>
     </div>
   </section>
 </template>

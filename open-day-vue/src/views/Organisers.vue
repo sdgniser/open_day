@@ -43,6 +43,16 @@ export default {
           image: require('../assets/Dhairya_Patel.jpg'),
         },
         {
+          name: 'Nisarg Vyas',
+          affiliation: 'Physics',
+          image: require('../assets/Nisarg.jpg'),
+        },
+        {
+          name: 'Prem Nigam',
+          affiliation: 'Mathematics',
+          image: require('../assets/Prem.jpg'),
+        },
+        {
           name: 'Sanaa Khan',
           affiliation: 'Biology',
           image: require('../assets/Sanna.jpg'),
@@ -53,14 +63,9 @@ export default {
           image: require('../assets/Hradini.jpg'),
         },
         {
-          name: 'Nisarg Vyas',
-          affiliation: 'Physics',
-          image: require('../assets/Nisarg.jpg'),
-        },
-        {
-          name: 'Prem Nigam',
-          affiliation: 'Mathematics',
-          image: require('../assets/Prem.jpg'),
+          name: 'Anshuman Padhi',
+          affiliation: 'Logistics',
+          image: require('../assets/Anshuman.jpg'),
         },
         {
           name: 'Ayush Singh',
@@ -86,11 +91,6 @@ export default {
           name: 'Anoushka Sardar',
           affiliation: 'Logistics',
           image: require('../assets/Anoushka.jpg'),
-        },
-        {
-          name: 'Anshuman Padhi',
-          affiliation: 'Logistics',
-          image: require('../assets/Anshuman.jpg'),
         },
         {
           name: 'Tanya Pattnaik',

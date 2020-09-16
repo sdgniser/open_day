@@ -2,7 +2,7 @@
   <article>
     <figure v-lazyload>
       <img v-if="organiser.image" :alt="organiser.name + '\'s image'" :data-url="organiser.image"/>
-      <img v-else :alt="organiser.name + '\'s image'" :data-url="'https://api.adorable.io/avatars/200/'+organiser.name+'@adorable.io.png'"/>
+      <img v-else :alt="organiser.name + '\'s image'" :data-url="'https://api.adorable.io/avatars/200/ll'+organiser.name+'al@niser.ac.in.png'"/>
     </figure>
     <h2>{{ organiser.name }}</h2>
     <p class="subtext">{{ organiser.affiliation }}</p>

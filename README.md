@@ -27,7 +27,6 @@ Temporary deployment on [https://openday2020.dunce.ml](https://openday2020.dunce
 - [x] Fix Schedule shadow styling
 - [x] Manual image compression for better performance
 - [x] Better placeholder Images
-- [ ] Loading spinner or something for lazy loading
 - [ ] Better Typography
 - [ ] History mode
 - [ ] Footer
