@@ -45,7 +45,7 @@ export default {
         {
           name: 'Sanaa Khan',
           affiliation: 'Biology',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/Sanna.jpg'),
         },
         {
           name: 'Hradini Konthalapalli',
@@ -73,14 +73,9 @@ export default {
           image: 'https://deshmukh.ml/images/popitalk_dp.jpg',
         },
         {
-          name: 'Jyotirmay Shivottam',
-          affiliation: 'Web Developer',
-          image: 'https://via.placeholder.com/150',
-        },
-        {
           name: 'Jyotish',
           affiliation: 'Robotics',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/Jyothish.jpg'),
         },
         {
           name: 'Smruthimedha Prida',
@@ -107,32 +102,28 @@ export default {
         {
           name: 'Pankaj Kumar',
           affiliation: 'Overall',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Tanmay Pani',
           affiliation: 'Overall',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Pushpa Raj Prasaf',
           affiliation: 'Chemistry',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Prakhar Gupta',
           affiliation: 'Chemistry',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Srilakshmi',
           affiliation: 'Biology',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/srilakshmi.jpeg'),
         },
         {
-          name: 'Saurabh Agarwal',
+          name: 'Sourav Agarwal',
           affiliation: 'Biology',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/Sourav_Agrawal.jpg'),
         },
         {
           name: 'Akshay Priyadarshani',
@@ -142,22 +133,18 @@ export default {
         {
           name: 'Dishant Swain',
           affiliation: 'Physics',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Paresh Singh Arora',
           affiliation: 'Mathematics',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Sannidhya Shukla',
           affiliation: 'Computer Sci.',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Aranya Giri',
           affiliation: 'Food',
-          image: 'https://via.placeholder.com/150',
         },
         {
           name: 'Arnav Paul',
@@ -167,29 +154,29 @@ export default {
         {
           name: 'Smrutimedha Prida',
           affiliation: 'Invite and design',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/Smruti.jpg'),
         },
       ],
       organiser2018: {
         name: 'Biprateep Dey',
         affiliation: '2018 Chief Organiser',
-        image: 'https://via.placeholder.com/150',
+        image: require('../assets/Biprateep_Dey.jpg'),
       },
       organiser2017: {
         name: 'Diptanil Roy',
         affiliation: '2017 Chief Organiser',
-        image: 'https://via.placeholder.com/150',
+        image: require('../assets/Diptanil_Roy.jpg'),
       },
       organisers2016: [
         {
           name: 'Bipradeep Dey',
           affiliation: '2016 Chief Organiser',
-          image: 'https://via.placeholder.com/150',
+          image: require('../assets/Biprateep_Dey.jpg'),
         },
         {
           name: 'Debashish Jena',
           affiliation: '2016 Chief Organiser',
-          image: 'https://via.placeholder.com/150',
+        image: require('../assets/Debashish_Jena.jpg'),
         },
       ],
     };

@@ -6,6 +6,7 @@ import VueScrollTo from 'vue-scrollto';
 // @ts-ignore
 import VueNavigationBar from "vue-navigation-bar";
 import "./scss/vue-navigation-bar.css";
+// @ts-ignore
 
 
 Vue.config.productionTip = false;

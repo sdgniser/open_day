@@ -2,6 +2,7 @@
   <section id="schedule">
     <section id="conference-timeline">
       <div class="timeline-start">Start</div>
+      <Loading :active="loading" :is-full-page="false"> </Loading>
       <div class="conference-center-line"></div>
       <div class="conference-timeline-content">
         <TimelineCard :item="item" v-for="item in items" :key="item.pk" />
@@ -11,16 +12,20 @@
   </section>
 </template>
 <script>
+import 'vue-loading-overlay/dist/vue-loading.css';
 import TimelineCard from '@/components/TimelineCard.vue';
+import Loading from 'vue-loading-overlay';
 import axios from 'axios';
 export default {
   name: 'Schedule',
   components: {
     TimelineCard,
+    Loading,
   },
   data() {
     return {
       items: [],
+      loading: true,
     };
   },
   async created() {
@@ -40,62 +45,64 @@ export default {
           row: item.gs$cell.row,
           col: item.gs$cell.col,
         };
-      }).forEach(entry => {
-        let field = "";
-        if (!(this.items[Number(entry.row) - 4])) {
+      })
+      .forEach(entry => {
+        let field = '';
+        if (!this.items[Number(entry.row) - 4]) {
           this.items[Number(entry.row) - 4] = {};
         }
         switch (entry.col) {
           case '2':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              pk: entry.value
+              pk: entry.value,
             };
             break;
           case '3':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              date: new Date(entry.value)
+              date: new Date(entry.value),
             };
             break;
           case '4':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              day: entry.value
+              day: entry.value,
             };
             field = 'day';
             break;
           case '5':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              speaker: entry.value
+              speaker: entry.value,
             };
             field = 'speaker';
             break;
           case '6':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              affiliation: entry.value
+              affiliation: entry.value,
             };
             field = 'affiliation';
             break;
           case '7':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              content: entry.value
+              content: entry.value,
             };
             field = 'content';
             break;
           case '8':
             this.items[Number(entry.row) - 4] = {
               ...this.items[Number(entry.row) - 4],
-              link: entry.value
+              link: entry.value,
             };
             field = 'link';
             break;
-        };
+        }
       });
-      this.$forceUpdate();;
+    this.$forceUpdate();
+    this.loading=false;
   },
 };
 </script>

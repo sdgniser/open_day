@@ -56,11 +56,13 @@ export default {
     max-width: 44%;
     width: 100%;
     float: left;
+    padding: 5px;
   }
   .content-right-container {
     max-width: 44%;
     width: 100%;
     float: right;
+    padding: 5px;
   }
   .timeline-author {
     display: block;
@@ -77,10 +79,9 @@ export default {
     border: 1px solid #ddd;
     background-color: white;
     padding: 27px 25px;
-    transition: 0.2s;
+    transition: 0.3s;
     &:hover {
       transform: scale(1.05);
-      box-shadow: 5px 5px 10px black;
     }
     &:before {
       font-family: 'FontAwesome';

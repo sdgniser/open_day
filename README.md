@@ -23,11 +23,12 @@ Temporary deployment on [https://openday2020.dunce.ml](https://openday2020.dunce
 - [x] Link the COVID-19 link to niser's covid 19 link
 - [x] Hamburger menu on the navbar
 - [x] Vulnerabilities
+- [x] Loading thing for schedule page
+- [x] Fix Schedule shadow styling
+- [x] Manual image compression for better performance
+- [x] Better placeholder Images
 - [ ] Loading spinner or something for lazy loading
-- [ ] Loading thing for schedule page
-- [ ] Fix Schedule shadow styling
 - [ ] Better Typography
-- [ ] Manual image compression for better performance
 - [ ] History mode
 - [ ] Footer
 
